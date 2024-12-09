@@ -20,7 +20,7 @@ body{
 /*Side Line*/
 
 .side-line{
-    background-color: aqua;
+    background-color: #ccffff;
     height: 100%;
     width: 25px;
 }
@@ -28,7 +28,7 @@ body{
 /*Side Bar*/
 
 .side-bar{
-    background-color: royalblue;
+    background-color: #e6e6e6;
     height: 100%;
     width: 25%;
     display: flex;
@@ -37,7 +37,7 @@ body{
     align-items: center;
     padding-top: 100px;
     padding-bottom: 100px; 
-    box-shadow: 1px 1px 10px  (185, 185, 185);
+    box-shadow: 1px 1px 10px  #e6ffff;
 }
 
 .right-panel{
@@ -55,4 +55,12 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+}
+
+.header{
+    background-color: royalblue;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
